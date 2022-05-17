@@ -22,7 +22,7 @@ const Menu = () => {
           <Link href="/">
             <a className="font-semibold text-xl tracking-tight w-60">
               <img
-                src="/assets/images/Credore Logo Variations/Logo Text Black@4x.png"
+                src="/assets/images/Logo.png"
                 alt="logo"
                 className="w-full"
               />
