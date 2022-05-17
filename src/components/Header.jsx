@@ -22,7 +22,7 @@ const Menu = () => {
           <Link href="/">
             <a className="font-semibold text-xl tracking-tight w-60">
               <img
-                src="/assets/images/Credore Logo Variations/Full Logo V2@4x.png"
+                src="/assets/images/Credore Logo Variations/Logo Text Black@4x.png"
                 alt="logo"
                 className="w-full"
               />
@@ -40,17 +40,18 @@ const Menu = () => {
 
         <ul className="menu flex justify-end list-reset m-0 w-full md:w-auto items-center">
           <li className="">
-            <a
-              href="/about/"
-              className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker text-xl"
-            >
-              About
-            </a>
+            <Link href="/#about">
+              <a
+                className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker text-xl"
+              >
+                About
+              </a>
+            </Link>
           </li>
 
           <li className="">
             <a
-              href="/blog/"
+              href="https://docs.credore.xyz/"
               className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker text-xl"
             >
               Docs
